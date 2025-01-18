@@ -1,2 +1,2 @@
 # Calculator
-Calc is short for calculator 🤓
+I will upload this eventually.
