@@ -1,0 +1,111 @@
+/* Section */
+#myFlex {
+  display: flex;
+
+  
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+#calcHistory {
+  background-color: #c4c4c4;
+  margin-top: 2rem;
+  width: 25rem;
+  height: 35rem;
+  /* Prevent container from getting larger -> overflow: scroll; */
+  position: relative; 
+  margin-top: 2rem;   /* Causing large margin --> margin: 2rem auto;*/
+
+    
+  padding: 1rem;
+  border-radius: 0px; /* For the round corners*/
+  background-color: #c4c4c4;
+  box-shadow: 0 4px 15px rgba(193, 189, 189, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+
+/* Calculator Container */
+#calculator{
+    width: 25rem;
+    margin-left: 1rem;
+    position: relative; 
+    margin-top: 2rem;   /* Causing large margin --> margin: 2rem auto;*/
+
+      
+    padding: 1rem;
+    border-radius: 0px; /* For the round corners*/
+    background-color: #c4c4c4;
+    box-shadow: 0 4px 15px rgba(193, 189, 189, 0.3);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1rem;
+}
+
+.title {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  
+  padding-top: 2rem; 
+  color: black;
+  margin: 0rem;
+
+}
+
+#display {
+
+    background-color: grey;
+
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+    min-height: 2rem;
+    box-sizing: border-box;
+
+}
+ 
+/* ------------ */
+
+#expressionDemo{
+    color: black;
+}
+
+
+/* ------------ */
+.btnSet{
+  width: 100%; /* 100 / 3 = 33.33% per item */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #4c4c4c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btnSet:hover {
+  background-color: #6e6e6e;
+}
+
+.btnSet:active {
+  background-color: #888;
+}
+
+/* ------------ */
